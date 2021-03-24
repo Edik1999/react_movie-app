@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import axios from 'axios';
 import Movie from './movie';
 import './App.css';
@@ -26,7 +25,7 @@ class App extends React.Component {
       <section className="container">
         {isLoading ? (
           <div className="loader">
-            <span className="loader__text"><img src="829.gif"></img></span>
+            <span className="loader__text"><img src="829.gif" alt="loading..."></img></span>
           </div>
         ) : (
           <div className="movies">

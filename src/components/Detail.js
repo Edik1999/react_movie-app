@@ -11,7 +11,7 @@ class Detail extends React.Component{
     }
 
     render() {
-        const {location, history} = this.props;
+        const {location} = this.props;
         if (location.state){
             return (
                 <div className="detail">

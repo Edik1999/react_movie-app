@@ -1,0 +1,19 @@
+.about__card{
+    width: 450px;
+    padding: 25px 35px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    transform: translateY(-70px);
+}
+
+.about__title{
+    margin-top: 0;
+    text-align: center;
+}
+
+.about__text{
+    font-size: 19px;
+    text-align: center;
+}

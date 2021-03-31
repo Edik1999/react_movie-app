@@ -3,13 +3,18 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 70px 50px 0;
+    padding: 100px 50px 0;
     width: 80%;
+  }
+
+  .movies a{
+    width: 45%;
+    text-decoration: none;
   }
   
   .movies .movie {
     display: flex;
-    width: 45%;
+    width: 100%;
     background-color: white;
     align-items: flex-start;
     margin-bottom: 70px;
@@ -30,6 +35,11 @@
     margin-right: 30px;
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
       0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    transition: all 0.4s;
+  }
+
+  .movie img:hover {
+    transform: scale(1.15);
   }
   
   .movie .movie__title,
@@ -42,6 +52,7 @@
     margin-bottom: 5px;
     font-size: 24px;
     color: #2c2c2c;
+    font-weight: 600;
   }
   
   .movie .movie__genres {
